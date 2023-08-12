@@ -1,0 +1,119 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*********************** NAVBAR **********************/
+.navbar{
+    background-color:#efeaef;
+}
+
+.navbar-nav a{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    line-height: 40px;
+    margin: 0 10px;
+}
+
+.navbar-nav a:hover{
+    border: 1px  solid black;
+    transition: .5s;
+}
+
+.navbar-nav input{
+    border-radius: 24px;
+    height: 47px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.navbar-nav input:hover{
+    background-color: #efeaef;
+    color: black;
+    cursor: pointer;
+}
+
+
+.navbar-light .navbar-brand{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    padding: 0 30px;
+}
+
+.nav-link{
+    color: black!important;
+}
+
+/**************************** CAROUSEL ****************************/
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 25px; 
+    color: black; 
+    margin-top: -10px; 
+    text-align: center; 
+    font-family: 'Libre Baskerville', serif;
+}
+
+@media (max-width: 500px) {
+    .carousel-caption h5 {
+        font-size: 30px; 
+    }
+    
+    .carousel-caption p {
+        font-size: 14px; 
+        margin-top: 10px; 
+    }
+}
+
+.carousel-caption input{
+    border-radius: 10px;
+    border: none;
+    height: 47px;
+    width: 130px;
+    background-color: black;
+    color:  #efeaef;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.carousel-caption input:hover{
+    background-color:  #efeaef;
+    color: black;
+    cursor: pointer;
+}
+
+
