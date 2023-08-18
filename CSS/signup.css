@@ -1,0 +1,71 @@
+body{
+    font-family: 'Libre Baskerville', serif!important;
+}
+.p-secondary a{
+	color: blue;
+}
+.p-secondary a:hover{
+	cursor: pointer;
+	color: purple;
+}
+
+.header{
+    background-color: #efeaef ;
+}
+
+.mb-5{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-select{
+	padding: 0.4rem;
+	border-radius: 0.5rem;
+}
+
+.mt-10{
+    background-color: #dad6da!important;
+    opacity: 0.9;
+}
+
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: black;
+    font-size: 1rem;
+}
+
+span{
+    font-size: 35px!important;
+    font-weight: bold;
+    color: black;
+    padding: 0 30px;
+}
+
+a{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 21px!important;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    line-height: 40px;
+    margin: 0 10px;
+    color: black;
+}
+
+a:hover{
+    border: 1px  solid black;
+    transition: .5s;
+}
+
+button{
+    background-color: black!important;
+}
+button:hover{
+    background-color: #efeaef!important;
+    transition: .5s;
+    color: black;
+}
+
+#myBtn{
+    text-transform: lowercase!important;
+    border: none;
+}
